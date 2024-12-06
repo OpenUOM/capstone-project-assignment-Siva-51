@@ -7,7 +7,7 @@ dbConnection
   })
   .catch((err) => {
     console.log(err);
-    throw err; ;
+    throw err; 
   });
 
 let _db;
