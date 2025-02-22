@@ -51,6 +51,8 @@ export class StudentTableComponent implements OnInit {
     })
   }
 
+  
+    
   search(value) {
     let foundItems = [];
     if (value.length <= 0) {
@@ -64,4 +66,5 @@ export class StudentTableComponent implements OnInit {
       this.studentData = foundItems;
     }
   }
+   
 }
